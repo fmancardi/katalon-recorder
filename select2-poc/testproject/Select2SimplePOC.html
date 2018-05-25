@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Select2SimplePOC</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">local</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/development/katalon-recorder/select2-poc/site/t1.html<datalist><option>http://localhost/katalon-recorder/select2-poc/site/t1.html</option></datalist></td><td></td>
+</tr>
+<tr><td>storeEval</td><td>$("#e1").find('option').filter( function () { return $(this).html() == 'Wyoming'; }).val()<datalist><option>$("#e1").find('option')</option><option>$("#e1").find('option').filter( function () { return $(this).html() == 'Wyoming'; })</option><option>$("#e1").find('option').filter( function () { return $(this).html() == 'Wyoming'; }).val()</option></datalist></td><td>options</td>
+</tr>
+<tr><td>runScript</td><td>$("#e1").val('${options}').trigger("change")<datalist><option>document.getElementById('select2-e1-container').innerText</option><option>document.getElementById('select2-u8ks-container').innerText</option><option>document.getElementById('lst-ib').value</option><option>document.getElementById('lst-ib')</option><option>document.getElementById('select2-u8ks-container').value</option><option>document.getElementById('select2-u8ks-container')</option><option>document.getElementById('select2-e1-container').innerText='MOMO'</option><option>document.getElementById('select2-e1-container').val("WY")..trigger("change")</option><option>document.getElementById('select2-e1-container').val("WY").trigger("change")</option><option>$("#e1").val("WY").trigger("change")</option><option>$("#e1").val(options).trigger("change")</option><option>$("#e1").val(${options}).trigger("change")</option><option>$("#e1").val('${options}').trigger("change")</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TestCase-OptionByText</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/development/www/methodology/test-automation/katalon-recorder/select2-poc/site/t1.html<datalist><option>http://localhost/development/www/methodology/test-automation/katalon-recorder/select2-poc/site/t1.html</option><option>http://localhost/development/www/demo/t1.html</option></datalist></td><td></td>
+</tr>
+<tr><td>runScript</td><td>$("#e1 option:text="Anakapalli"").prop("selected", "selected"); <datalist><option>$("#e1").val("WY").trigger("change")</option><option>document.getElementById('select2-e1-container').innerText</option><option>document.getElementById('select2-u8ks-container').innerText</option><option>document.getElementById('lst-ib').value</option><option>document.getElementById('lst-ib')</option><option>document.getElementById('select2-u8ks-container').value</option><option>document.getElementById('select2-u8ks-container')</option><option>document.getElementById('select2-e1-container').innerText='MOMO'</option><option>document.getElementById('select2-e1-container').val("WY")..trigger("change")</option><option>document.getElementById('select2-e1-container').val("WY").trigger("change")</option><option>$("#e1 option:text=Anakapalli").prop("selected", "selected"); </option><option>$("#e1 option:text="Anakapalli"").prop("selected", "selected"); </option></datalist></td><td></td>
+</tr>
+<tr><td>runScript</td><td>$("#e1").trigger("change")<datalist><option>$("#e1").val("WY").trigger("change")</option><option>document.getElementById('select2-e1-container').innerText</option><option>document.getElementById('select2-u8ks-container').innerText</option><option>document.getElementById('lst-ib').value</option><option>document.getElementById('lst-ib')</option><option>document.getElementById('select2-u8ks-container').value</option><option>document.getElementById('select2-u8ks-container')</option><option>document.getElementById('select2-e1-container').innerText='MOMO'</option><option>document.getElementById('select2-e1-container').val("WY")..trigger("change")</option><option>document.getElementById('select2-e1-container').val("WY").trigger("change")</option><option>$("#e1").trigger("change")</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
